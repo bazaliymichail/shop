@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /wp-admin # панель администратора
+Disallow: /wp-includes # данные движка
+Disallow: /wp-content/plugins # инсталлированные дополнения
+Disallow: /wp-content/cache # данные, которые были кешированы
+Disallow: /wp-content/themes # темы
+Disallow: /wp-login.php # вход на панель администратора
+Disallow: /?s= # результаты поиска
+Disallow: /search/ # результаты поиска
+Allow: /wp-admin/admin-ajax.php
+Sitemap: http://shop.kate.rurs.net/sitemap_index.xml # карта сайта
